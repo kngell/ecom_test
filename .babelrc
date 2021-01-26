@@ -1,0 +1,20 @@
+{
+  "plugins": [
+    [
+      "polyfill-corejs3",
+      {
+        "method": "usage-global"
+      }
+    ],
+    ["polyfill-regenerator", { "method": "usage-global" }]
+  ],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "debug": true,
+        "corejs": 3
+      }
+    ]
+  ]
+}
